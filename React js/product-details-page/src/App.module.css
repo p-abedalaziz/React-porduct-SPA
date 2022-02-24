@@ -1,0 +1,103 @@
+body{
+  user-select: none
+  ;
+    background: linear-gradient(90deg, rgb(33,37,41) 48%, rgba(34,0,129,0.35) 100%);
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btndanger{
+  width:100%;
+  background-color: rgb(211, 18, 18);
+}
+.btndanger:hover{
+  width:100%;
+  background-color: rgb(231, 227, 227);
+  color: red;
+}
+Button{
+  width:100%;
+  outline-color: antiquewhite;
+}
+.btnsucces{
+   background-color: rgb(244, 244, 248);
+   color: blue;
+}
+.btnsucces:hover{
+  background-color: rgb(244, 244, 248);
+  color: red;
+}
+.btnsucces:focuus{
+  background-color: rgb(244, 244, 248);
+  color: red;
+}
+.borderedprouduct{
+  border:1px solid silver;
+}
+.time{
+  position: absolute;
+  top:50%;
+  left:27%; 
+  color: aliceblue;
+  font-size: x-large;
+ 
+}
+.heartRate{
+  text-align: center;
+   color: rgb(251, 250, 250);
+  font-size: x-large;
+}
+.icon{
+  position: absolute;
+  top:44%;
+  left:27%; 
+  color: rgb(218, 8, 8);
+  font-size: 3rem;
+}
+.produacttitle{
+  text-align: center;
+  color: rgb(233, 233, 233);
+}
+img{
+  cursor: pointer;
+  border-radius: 25%;
+}
+.producdescription{
+  text-align: center;
+  color: rgba(207, 206, 206, 0.8);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+ .time{
+    position: absolute;
+  top:60%;
+  left:43%;
+ }
+  .icon{
+    position: absolute;
+  top:55%;
+  left:46%;
+    color: rgb(218, 8, 8);
+  font-size: xx-large;
+  
+ }
+}
